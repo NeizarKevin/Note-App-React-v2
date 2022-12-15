@@ -28,4 +28,4 @@ Merupakan aplikasi catatan yang dibuat menggunakan framework JavaScript yaitu Re
 - Netlify
 
 ### Demo
-For Demo of this template you can [Visit website](https://neziarkevin-note-app-react-v2.netlify.app/) 
+For Demo of this template you can [Visit website](https://neizarkevin-noteapp-react-v2.netlify.app/) 
