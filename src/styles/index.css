@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[data-theme='dark'] {
+  --background-color: #161b22;
+}
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@layer {
+  [contenteditable][placeholder]:empty:before {
+    content: attr(placeholder);
+    @apply absolute text-slate-400;
+  }
+}
+
+.animate-spin {
+  animation: spin 0.2s linear infinite !important;
+}
